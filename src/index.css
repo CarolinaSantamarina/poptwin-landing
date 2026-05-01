@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #0A0A0A;
+  --color-card: #131318;
+  --color-card-border: #22222a;
+  --color-surface: #1a1a22;
+  --color-lime: #A3E635;
+  --color-lime-hover: #84CC16;
+  --font-family-sans: 'Inter', system-ui, sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body {
+    background-color: #0A0A0A;
+    color: #ffffff;
+    font-family: 'Inter', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+  }
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #A3E635 #131318;
+  }
+  /* Anchor offset so role-section headings aren't hidden by the sticky CTA on mobile */
+  section[id] { scroll-margin-top: 24px; }
+}
