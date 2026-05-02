@@ -9,7 +9,7 @@ const props = [
   {
     icon: Zap,
     title: 'One-Day Activation',
-    description: 'Attorney-drafted contracts auto-populate. Escrow holds funds until delivery. Bundle pricing matrix priced per vertical and term. From discovery to funded in hours, not weeks.',
+    description: 'Attorney-drafted contracts auto-populate. Escrow holds funds until delivery. Transparent licensing terms across every use case. From discovery to funded in hours, not weeks.',
   },
   {
     icon: Lock,

@@ -1,11 +1,11 @@
 import { Lock, FileText, Gift, QrCode, Activity } from 'lucide-react'
 
 const modules = [
-  { icon: Lock,     name: 'PopVault',     desc: 'Encrypted biometric and asset storage with consent-first access controls' },
-  { icon: FileText, name: 'Deal Builder', desc: 'End-to-end licensing workflow from offer to escrow to asset delivery' },
-  { icon: Gift,     name: 'Merch Me',     desc: 'Privacy-preserving product gifting with no-address-exposure logistics' },
-  { icon: QrCode,   name: 'KIT Code',     desc: 'AI-generated face-shaped QR business card for talent discovery' },
-  { icon: Activity, name: 'TPI Score',    desc: 'Real-time engagement analytics beyond follower counts' },
+  { icon: Lock,     name: 'PopVault',     desc: 'Encrypted vault for biometric and source files' },
+  { icon: FileText, name: 'Deal Builder', desc: 'Automated licensing flow with built-in escrow' },
+  { icon: Gift,     name: 'Merch Me',     desc: 'Privacy-preserving product gifting for talent' },
+  { icon: QrCode,   name: 'KIT Code',     desc: 'A signature talent discovery layer for brands' },
+  { icon: Activity, name: 'TPI Score',    desc: 'Engagement signal beyond follower counts' },
 ]
 
 export default function Modules() {

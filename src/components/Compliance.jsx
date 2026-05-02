@@ -3,7 +3,7 @@ import { ShieldCheck, Scale, Lock, FileSignature, BadgeCheck, Building2 } from '
 const badges = [
   { icon: ShieldCheck,    label: 'BIPA Compliant',             sub: 'Illinois biometric data law' },
   { icon: Scale,          label: 'ELVIS Act Aware',            sub: 'Tennessee voice/likeness cloning law' },
-  { icon: Lock,           label: 'Encrypted Asset Vault',      sub: 'AES-256 + signed-URL access' },
+  { icon: Lock,           label: 'Encrypted Asset Vault',      sub: 'Bank-grade encryption, gated access' },
   { icon: FileSignature,  label: 'Attorney-Drafted Contracts', sub: 'Reviewed by independent counsel' },
   { icon: BadgeCheck,     label: 'Identity Verification',      sub: 'Government ID + liveness check' },
   { icon: Building2,      label: 'Delaware C-Corp',            sub: 'TalentPortal AI Inc.' },

@@ -24,11 +24,11 @@ const faqs = [
   },
   {
     q: 'How is my biometric data protected?',
-    a: 'PopVault uses AES-256 encryption at rest with CloudFront-signed URL access. Asset access is gated behind fully executed licensing agreements and settled payments. BIPA-compliant explicit consent at upload, with published retention and destruction schedules.',
+    a: 'PopVault uses bank-grade encryption at rest with gated, time-limited access. Asset delivery is locked behind fully executed licensing agreements and settled payments. BIPA-compliant explicit consent at upload, with published retention and destruction schedules.',
   },
   {
     q: 'Who is behind PopTwin?',
-    a: 'TalentPortal AI Inc. is a Delaware C-Corporation founded in 2026 by Caro Santamarina, with trademark applications filed in USPTO Classes 35 and 45.',
+    a: 'TalentPortal AI Inc. is a Delaware C-Corporation founded in 2026 by Caro Santamarina.',
   },
   {
     q: 'I represent multiple talent / multiple brands. How does that work?',
