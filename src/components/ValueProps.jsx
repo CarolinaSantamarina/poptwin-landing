@@ -26,7 +26,7 @@ export default function ValueProps() {
           Why <span className="text-lime">PopTwin</span>.
         </h2>
         <p className="text-white/60 max-w-3xl mx-auto leading-relaxed">
-          Three commitments that shape every product decision &mdash; from how talent onboards
+          Three commitments that shape every product decision, from how talent onboards
           to how brands pay.
         </p>
       </div>

@@ -12,7 +12,7 @@ const faqs = [
   },
   {
     q: 'What do I get for joining the waitlist?',
-    a: 'Early access. Waitlist members are invited to onboard before public availability so they can build their profile, complete identity verification (talent), and start using the platform first. No tiered pricing, no special perks — just first access.',
+    a: 'Early access. Waitlist members are invited to onboard before public availability so they can build their profile, complete identity verification (talent), and start using the platform first. No tiered pricing, no special perks. Just first access.',
   },
   {
     q: 'What countries are supported?',
@@ -20,7 +20,7 @@ const faqs = [
   },
   {
     q: 'How is talent identity verified?',
-    a: 'Mandatory identity verification during onboarding: government-issued ID plus a selfie liveness check. No exceptions — every Talent profile on PopTwin is identity-verified.',
+    a: 'Mandatory identity verification during onboarding: government-issued ID plus a selfie liveness check. No exceptions. Every Talent profile on PopTwin is identity-verified.',
   },
   {
     q: 'How is my biometric data protected?',
