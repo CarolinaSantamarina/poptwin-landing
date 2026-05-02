@@ -11,19 +11,19 @@ import StickyCTA from './components/StickyCTA.jsx'
 import TallyModal from './components/TallyModal.jsx'
 
 const TALENT_BULLETS = [
-  { title: 'You set the price.', body: 'Three licensing verticals — Image, Voice, Video — across three terms (3, 6, 12 months). Smart Pricing auto-calculates the longer terms from your 3-month anchor, or you set them manually.' },
+  { title: 'You set the price.', body: 'Multi-vertical licensing across short and long terms. Smart Pricing helps you set rates that match your reach — or you set them manually.' },
   { title: 'You get paid on delivery.', body: 'Funds held in escrow on contract execution. Released on asset delivery. No chasing invoices, no back-channel disputes.' },
-  { title: 'You stay in control.', body: 'Every deal requires your signature. Every asset stays in PopVault until escrow funds. Disputes pause payout automatically.' },
+  { title: 'You stay in control.', body: 'Every deal requires your signature. Assets stay vaulted until escrow funds. Disputes pause payout automatically.' },
 ]
 
 const BRAND_BULLETS = [
-  { title: 'Verified, scored, ranked.', body: 'Every talent identity-verified. TPI Score surfaces engagement trajectory and brand-safety signals. Filter by category, budget, reach, region.' },
-  { title: 'One workflow, end-to-end.', body: 'Auto-populated licensing agreement. E-signature in-platform. Platform-managed escrow. Asset delivery on completion. No back-and-forth across email, DocuSign, and accounting.' },
-  { title: 'Privacy-preserving Merch Me.', body: 'Send products to talent without seeing their address. Build relationships before formal licensing.' },
+  { title: 'Verified, scored, ranked.', body: 'Every talent identity-verified. Engagement and brand-safety scoring surfaces who fits your campaign. Filter by category, budget, reach, region.' },
+  { title: 'One workflow, end-to-end.', body: 'Contract, signature, escrow, delivery — one platform. No back-and-forth across email, DocuSign, and accounting.' },
+  { title: 'Privacy-preserving gifting.', body: 'Send products to talent without seeing their address. Build relationships before formal licensing.' },
 ]
 
 const AGENCY_BULLETS = [
-  { title: 'Multi-brand workspace.', body: 'Switch between client brands at login or in-session. Deals, search, and reporting scope to whichever brand you’re representing.' },
+  { title: 'Multi-brand workspace.', body: 'Manage multiple brand clients from a single account. Deals, search, and reporting scope to whichever brand you’re representing.' },
   { title: 'Cross-brand visibility.', body: 'Portfolio dashboard across all your clients — deal counts, total value, top-performing talent, pending action items.' },
   { title: 'Built for compliance reporting.', body: 'Audit trail per client, per deal. Export-ready records for client billing and rights management.' },
 ]
