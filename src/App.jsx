@@ -11,20 +11,20 @@ import StickyCTA from './components/StickyCTA.jsx'
 import TallyModal from './components/TallyModal.jsx'
 
 const TALENT_BULLETS = [
-  { title: 'You set the price.', body: 'Multi-vertical licensing across short and long terms. Smart Pricing helps you set rates that match your reach — or you set them manually.' },
-  { title: 'You get paid on delivery.', body: 'Funds held in escrow on contract execution. Released on asset delivery. No chasing invoices, no back-channel disputes.' },
+  { title: 'You set the price.', body: 'Multi-vertical licensing across short and long terms. Smart Pricing helps you set rates that match your reach, or you set them manually.' },
+  { title: 'You get paid on approval.', body: 'Escrow funds at contract execution. Payout releases when you approve the final production assets, not before. No chasing invoices, no back-channel disputes.' },
   { title: 'You stay in control.', body: 'Every deal requires your signature. Assets stay vaulted until escrow funds. Disputes pause payout automatically.' },
 ]
 
 const BRAND_BULLETS = [
   { title: 'Verified, scored, ranked.', body: 'Every talent identity-verified. Engagement and brand-safety scoring surfaces who fits your campaign. Filter by category, budget, reach, region.' },
-  { title: 'One workflow, end-to-end.', body: 'Contract, signature, escrow, delivery — one platform. No back-and-forth across email, DocuSign, and accounting.' },
+  { title: 'One workflow, end-to-end.', body: 'Contract, signature, escrow, delivery, all in one platform. No back-and-forth across email, DocuSign, and accounting.' },
   { title: 'Privacy-preserving gifting.', body: 'Send products to talent without seeing their address. Build relationships before formal licensing.' },
 ]
 
 const AGENCY_BULLETS = [
   { title: 'Multi-brand workspace.', body: 'Manage multiple brand clients from a single account. Deals, search, and reporting scope to whichever brand you’re representing.' },
-  { title: 'Cross-brand visibility.', body: 'Portfolio dashboard across all your clients — deal counts, total value, top-performing talent, pending action items.' },
+  { title: 'Cross-brand visibility.', body: 'Portfolio dashboard across all your clients: deal counts, total value, top-performing talent, pending action items.' },
   { title: 'Built for compliance reporting.', body: 'Audit trail per client, per deal. Export-ready records for client billing and rights management.' },
 ]
 
@@ -42,7 +42,7 @@ export default function App() {
         id="talent"
         eyebrow="For Talent"
         title="Set your prices. Own your likeness. Get paid in escrow."
-        subhead="The first marketplace for digital twin licensing. Singers, actors, athletes, influencers, public figures, digital avatars — your terms, your price, your control."
+        subhead="The first marketplace for digital twin licensing. Singers, actors, athletes, influencers, public figures, digital avatars. Your terms, your price, your control."
         bullets={TALENT_BULLETS}
         ctaLabel="Join the Talent waitlist"
         onOpenForm={() => openModal('talent')}
